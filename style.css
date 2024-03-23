@@ -1,0 +1,46 @@
+body {
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.judul {
+    color: blue;
+    font-size: 20pt;
+    background-color: white;
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+table {
+    width: 45%; /* Atau sesuaikan dengan kebutuhan */
+    margin-bottom: 20px; /* Jarak antar tabel vertikal */
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: aqua;
+}
+
+/* Gaya tambahan jika diperlukan */
